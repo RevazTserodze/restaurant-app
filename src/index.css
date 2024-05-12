@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Free-Food-Backgrounds.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 968px) {
+  .none-responsive {
+    display: none;
+  }
+  .responsive {
+    display: block;
+  }
+}
+
