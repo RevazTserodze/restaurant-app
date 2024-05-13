@@ -19,8 +19,6 @@ const StoreItems: React.FC<StoreItemsProps> = ({
     increaseCartQuantity,
     decreaseCartQuantity,
     removeFromCart,
-    cartItems,
-    cartQuantity
   } = useShoppingCart();
   const quantity = getItemQuantity(id);
 
