@@ -15,7 +15,7 @@ function App() {
         <StartOfPage />
         <MainNav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/restaurant-app/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/Form" element={<Comment />} />
           <Route path="/store" element={<Store />} />
