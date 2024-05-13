@@ -60,7 +60,7 @@ const ResponsiveNav = () => {
                 style={{ transition: "text-decoration 0.3s, color 0.3s" }}
               >
                 <Link
-                  to="/"
+                  to="/restaurant-app/"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   Home

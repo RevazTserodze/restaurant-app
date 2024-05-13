@@ -35,7 +35,7 @@ const NoneResponsiveNav = () => {
             fontSize: "20px",
           }}
         >
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link to="/restaurant-app/" style={{ textDecoration: "none", color: "inherit" }}>
             Home
           </Link>
         </motion.li>
